@@ -1,6 +1,8 @@
 body {
     font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
     font-size: 18px;
+    margin: 0 auto;
+    width: 96%;
 }
 
 .title a {

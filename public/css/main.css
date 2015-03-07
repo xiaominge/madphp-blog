@@ -1,11 +1,9 @@
 body {
     font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
     font-size: 18px;
-    margin: 5% 20% 5% 20%;
-    padding: 2% 5% 5% 5%;
-    width: 50%;
+    margin: 0 auto;
     line-height: 150%;
-    border: 1px solid LightGrey;
+    width: 96%;
 }
 
 H1 {
@@ -69,26 +67,10 @@ pre {
     width: 95%;
 }
 
-
 code {
     font-family: Inconsolata, Consolas, "DEJA VU SANS MONO", "DROID SANS MONO", Proggy, monospace;
     font-size: 90%;
 }
-
-
-a {
-    text-decoration: none;
-    cursor: crosshair;
-    border-bottom: 1px dashed Red;
-    padding: 1px;
-    color: black;
-}
-
-
-a:hover {
-    background-color: LightGrey;
-}
-
 
 img {
     display: block;
