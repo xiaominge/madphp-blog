@@ -1,0 +1,23 @@
+{
+    "name": "madphp/madphp",
+    "description": "Madphp is a simple PHP framework based on composer.",
+    "keywords": ["framework", "madphp", "php"],
+    "license": "MIT",
+
+    "require": {
+        "madphp/src": "dev-master",
+        "michelf/php-markdown": "1.4.0"
+    },
+
+    "autoload": {
+        "classmap": [
+            "app/libraries",
+            "app/controllers",
+            "app/models"
+        ]
+    },
+
+    "config": {
+        "preferred-install": "dist"
+    }
+}
