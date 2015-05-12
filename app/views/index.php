@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
     <link href="<?php echo BASE_URL; ?>/public/css/home.css" rel="stylesheet" type="text/css">
 
-    <title>小民哥的部落格</title>
+    <title>部落格</title>
 
   </head>
   　　
@@ -22,7 +22,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/blog/">小民哥的部落格</a>
+            <a class="navbar-brand" href="/blog/">部落格</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

@@ -18,13 +18,12 @@ return array(
     'charset' => 'UTF-8',
 
     'aliases' => array(
-        'Format' => '\Madphp\Src\Core\Format',
+        'Format' => '\Madphp\Src\Core\Support\Format',
         'View' => '\Madphp\Src\Core\View',
         'Route' => '\Madphp\Src\Core\Route',
         'Event' => '\Madphp\Src\Core\Event',
         'Config' => '\Madphp\Src\Core\Config',
         'Log' => '\Madphp\Src\Core\Log',
-        'Page' => '\Madphp\Src\Library\Page',
 
         'DB' => '\Illuminate\Database\Capsule\Manager',
         'Eloquent' => '\Illuminate\Database\Eloquent\Model',

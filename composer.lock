@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "ae9e97b7f16ab83da213397ef800f457",
@@ -259,18 +259,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/xiaominge/madphp-src.git",
-                "reference": "501698ecd16a36fe1389db0ef9afce1a6b541b71"
+                "reference": "aa4182226618176151d0f13433f6623a8b068ce0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xiaominge/madphp-src/zipball/501698ecd16a36fe1389db0ef9afce1a6b541b71",
-                "reference": "501698ecd16a36fe1389db0ef9afce1a6b541b71",
+                "url": "https://api.github.com/repos/xiaominge/madphp-src/zipball/aa4182226618176151d0f13433f6623a8b068ce0",
+                "reference": "aa4182226618176151d0f13433f6623a8b068ce0",
                 "shasum": ""
             },
             "require": {
                 "filp/whoops": "1.1.3",
                 "illuminate/database": "4.2.16",
                 "predis/predis": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*"
             },
             "type": "library",
             "autoload": {
@@ -281,8 +284,7 @@
                     "function/url.php"
                 ],
                 "classmap": [
-                    "core",
-                    "library"
+                    "core"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -301,7 +303,7 @@
                 "madphp",
                 "php"
             ],
-            "time": "2015-03-05 10:43:47"
+            "time": "2015-05-11 10:42:09"
         },
         {
             "name": "michelf/php-markdown",
@@ -356,20 +358,21 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.16.0",
+            "version": "1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "9b7665041754eaa9bb2622349bc9adbc1cf61cb8"
+                "reference": "68868e0b02d2d803d0052a59d4e5003cccf87320"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/9b7665041754eaa9bb2622349bc9adbc1cf61cb8",
-                "reference": "9b7665041754eaa9bb2622349bc9adbc1cf61cb8",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/68868e0b02d2d803d0052a59d4e5003cccf87320",
+                "reference": "68868e0b02d2d803d0052a59d4e5003cccf87320",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.3.0",
+                "symfony/translation": "~2.6"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.0"
@@ -398,7 +401,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2015-03-04 04:50:11"
+            "time": "2015-05-09 03:23:44"
         },
         {
             "name": "predis/predis",
@@ -449,6 +452,65 @@
                 "redis"
             ],
             "time": "2015-01-02 12:51:34"
+        },
+        {
+            "name": "symfony/translation",
+            "version": "v2.6.7",
+            "target-dir": "Symfony/Component/Translation",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Translation.git",
+                "reference": "398e0eedcb89243ad34a10d079a4b6ea4c0b61ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Translation/zipball/398e0eedcb89243ad34a10d079a4b6ea4c0b61ff",
+                "reference": "398e0eedcb89243ad34a10d079a4b6ea4c0b61ff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~2.3,>=2.3.12",
+                "symfony/intl": "~2.3",
+                "symfony/phpunit-bridge": "~2.7",
+                "symfony/yaml": "~2.2"
+            },
+            "suggest": {
+                "psr/log": "To use logging capability in translator",
+                "symfony/config": "",
+                "symfony/yaml": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Translation\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Translation Component",
+            "homepage": "https://symfony.com",
+            "time": "2015-05-05 16:51:00"
         }
     ],
     "packages-dev": [],
