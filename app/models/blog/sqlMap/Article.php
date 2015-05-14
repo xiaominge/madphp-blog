@@ -9,4 +9,6 @@ namespace Blog\App\Models\Blog\SqlMap;
 class Article
 {
     const getList = 'select * from #table#';
+    
+    const getOne = 'select * from #table# where slug=:slug';
 }

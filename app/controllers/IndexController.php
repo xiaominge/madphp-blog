@@ -19,13 +19,14 @@ class IndexController extends BaseController
 
     public function index($page = 1)
     {
-        $articles = Article::all();
+        $articles = Blog\App\Models\Blog\Article::lists();
         View::make('index')->with('articles', $articles)->show();
     }
 
     public function show($slug = '')
     {
-        $article = Article::where('slug', $slug)->first();
+        $article = Blog\App\Models\Blog\Article::get(array('slug' => $slug));
         View::make('show')->with('article', $article)->show();
     }
+    
 }

@@ -11,7 +11,7 @@ if(!defined('BASEPATH')) {
 
 return array(
     // 应用URL
-    'base_url' => 'http://www.jxwen.com/blog/',
+    'base_url' => 'http://blog.jxwen.com/',
     // 时区设置
     'timezone' => 'Asia/Shanghai',
 
