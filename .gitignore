@@ -2,6 +2,5 @@
 vendor
 src/vendor
 app/configs/database.php
-app/configs/db.development.php
 app/logs
 /nbproject

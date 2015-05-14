@@ -15,7 +15,7 @@ class Base
     protected static function getDb()
     {
         if (self::$db === null) {
-            self::$db = \Madphp\Src\Core\Db::connection(self::$dbname);
+            self::$db = \DB::connection(self::$dbname);
             self::$db->setFetchStyle(\PDO::FETCH_CLASS);
         }
 		return self::$db;

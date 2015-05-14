@@ -25,7 +25,6 @@ return array(
         'Config' => '\Madphp\Src\Core\Config',
         'Log' => '\Madphp\Src\Core\Log',
 
-        'DB' => '\Illuminate\Database\Capsule\Manager',
-        'Eloquent' => '\Illuminate\Database\Eloquent\Model',
+        'DB' => '\Madphp\Src\Core\Db',
     ),
 );
